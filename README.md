@@ -34,7 +34,7 @@ Ouvrir le dossier dans **IntelliJ IDEA**.
 `File > Project Structure > Libraries > + > Java`
 
 Ajouter **séparément** :
-- Le dossier `lib/` du SDK JavaFX (ex: `C:\javafx-sdk-21\lib`)
+- Le dossier `lib/` du SDK JavaFX (ex: `C:\javafx-sdk-XX\lib`)
 - Le fichier `mysql-connector-j-X.X.X.jar`
 
 Cliquer `OK`.
@@ -101,15 +101,17 @@ src/com/medical/
 ```
 
 ---
+
 ## Note sur l'architecture
 
 Les opérations CRUD sont réparties dans `PatientDAO.java` et `TraitementDAO.java`
 plutôt que dans un seul `Database.java`, en suivant le patron de conception **DAO
 (Data Access Object)**. Cela permet de séparer clairement la logique d'accès à la
 base de données de l'interface graphique, rendant le code plus lisible et maintenable.
+
 ---
 
-## Binôme
+## Réalisé par
 
 - EL-GHOMRY Youssef — ENSAO GI3
 - DAOUDI Mouad — ENSAO GI3
