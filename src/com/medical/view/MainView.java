@@ -103,7 +103,7 @@ public class MainView {
             Alert a = new Alert(Alert.AlertType.INFORMATION);
             a.setTitle("À propos");
             a.setHeaderText("Application de Suivi Médical");
-            a.setContentText("Version 1.0\nDéveloppée avec JavaFX + MySQL\n© 2025");
+            a.setContentText("Version 1.0\nDéveloppée avec JavaFX + MySQL\n© 2026");
             a.showAndWait();
         });
         mAide.getItems().add(miAPropos);
